@@ -5,11 +5,13 @@
 <h2 align="center">Integrantes</h2>
 
 <div style="margin-left: 40px; margin-right: 40px;">
-- Aparicio Hernandez Joselin  
-- Huerta Cortes Melanie Johanna  
-- Mejía Cruz Heidy Clarisa  
-- Rodriguez Rodriguez Fatima  
-- Salazar Acosta Layla Jayri  
+<ul>
+  <li>Aparicio Hernandez Joselin</li>
+  <li>Huerta Cortes Melanie Johanna</li>
+  <li>Mejía Cruz Heidy Clarisa</li>
+  <li>Rodriguez Rodriguez Fatima</li>
+  <li>Salazar Acosta Layla Jayri</li>
+</ul>
 </div>
 
 <h2 align="center">5 AMPG</h2>
