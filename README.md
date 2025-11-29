@@ -4,8 +4,8 @@
 
 <h2 align="center">Integrantes</h2>
 
-<div style="margin-left: 40px; margin-right: 40px;">
-<ul>
+<div style="margin-left: 40px; margin-right: 40px; text-align: center;">
+<ul style="list-style-position: inside;">
   <li>Aparicio Hernandez Joselin</li>
   <li>Huerta Cortes Melanie Johanna</li>
   <li>Mejía Cruz Heidy Clarisa</li>
