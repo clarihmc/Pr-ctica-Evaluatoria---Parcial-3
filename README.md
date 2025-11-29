@@ -1,6 +1,14 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-left: 40px; margin-right: 40px;">
-  <img src=assets/logo1.png alt="logo izquierdo" width="150"/>
- <img src=assets/logo2.png alt="logo derecho" width="150"/>
+<div style="margin-left: 40px; margin-right: 40px;">
+  <table width="100%">
+    <tr>
+      <td align="left" width="150">
+       <img src=assets/logo1.png alt="logo izquierdo" width="150"/>
+      </td>
+      <td align="right" width="150">
+        <img src=assets/logo2.png alt="logo derecho" width="150"/>
+      </td>
+    </tr>
+  </table>
 </div>
 
 <h1 align="center">Construye aplicaciones web</h1>
