@@ -18,9 +18,6 @@
       <td align="left" width="150">
        <img src=assets/logo1.png alt="logo izquierdo" width="150"/>
       </td>
-      <td align="right" width="150">
-        <img src=assets/logo2.png alt="logo derecho" width="150"/>
-      </td>
     </tr>
   </table>
 </div>
