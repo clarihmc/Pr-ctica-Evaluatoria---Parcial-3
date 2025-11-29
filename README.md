@@ -83,6 +83,8 @@ Django utiliza la arquitectura MVC (Modelo-Vista-Controlador), un patrón de dis
 
 <h2 align="center">Diagrama</h2>
 
+![Diagrama del proyecto](assets/diagrama.png)
+
 <div style="margin-left: 40px; margin-right: 40px; text-align: center;">
 <ul style="list-style-position: inside;">
   <li><b>Model</b> → Define cómo se estructuran y almacenan los datos.</li>
