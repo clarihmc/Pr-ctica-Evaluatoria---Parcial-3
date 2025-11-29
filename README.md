@@ -1,4 +1,4 @@
-<div style="display: flex; justify-content: center; align-items: center; gap: 40px; margin-top: 20px;">
+<div style="display: flex; justify-content: space-between; align-items: center; margin-left: 40px; margin-right: 40px;">
   <img src=assets/logo1.png alt="logo izquierdo" width="150"/>
  <img src=assets/logo2.png alt="logo derecho" width="150"/>
 </div>
