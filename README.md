@@ -1,5 +1,8 @@
-<h1 align="center">Construye aplicaciones web</h1>
-
+<div style="display: flex; justify-content: space-between; align-items: center; margin: 20px 40px;">
+  <img src=assets/logo.png alt=assets/logo2.png width="150"/>
+  <h1 style="text-align: center; flex-grow: 1;">Construye aplicaciones web</h1>
+  <img src="URL_DE_LA_IMAGEN_DERECHA" alt="Logo Derecho" width="150"/>
+</div>
 <h2 align="center">Práctica Evaluatoria Parcial 3</h2>
 
 <h2 align="center">Integrantes</h2>
