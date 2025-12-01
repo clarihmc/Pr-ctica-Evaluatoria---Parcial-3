@@ -108,12 +108,12 @@ Django utiliza la arquitectura MVC (Modelo-Vista-Controlador), un patrón de dis
 </div>
 
 ---
-
+<li><b>models.py</b> → Define categorías y artículos con sus atributos.</li>
 <h2 align="center">Código de Archivos</h2>
 
 <div style="margin-left: 40px; margin-right: 40px; text-align: center;">
 <ul style="list-style-position: inside;">
-  <li><b>models.py</b> → Define categorías y artículos con sus atributos.</li>
+  <li><b>Código de “models.py”:</b></li>
   
   ![Captura1](assets/models.png)
   ![Captura1](assets/models2.png)
