@@ -22,7 +22,7 @@
 </ul>
 </div>
 
-<h2 align="center">5AM PG</h2>
+<h2 align="center">5 AM PG</h2>
 
 <h2 align="center">Índice</h2>
 
