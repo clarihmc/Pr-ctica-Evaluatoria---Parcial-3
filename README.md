@@ -116,8 +116,9 @@ Django utiliza la arquitectura MVC (Modelo-Vista-Controlador), un patrón de dis
   <li><b>Código de “models.py”:</b>></li>
   
   ![Captura1](assets/models.png)
-  <li><b>Código de “models.py” Actualizado:</b>></li> 
-  ![Captura2](assets/models2.png)
+  
+  <li><b>Código de “models.py” Actualizado:</b>></li>
+ 
   
   <li><b>views.py</b> → Gestiona páginas principales, detalles de productos y registro de usuarios.</li>
 
