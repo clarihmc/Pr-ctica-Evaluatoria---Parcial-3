@@ -130,8 +130,7 @@ En este semestre seguimos utilizando la herramienta Django que sirve  para desar
   <li><b>Código de “models.py”:</b></li>
   
   <li><b>Código de “models.py” Actualizado:</b></li>
- 
- \\\python
+```python
  from django.contrib.auth.models import User
 from django.db import models
 
@@ -158,15 +157,14 @@ class Item(models.Model):
 
     def ___str__(self):
         return self.name
-\\\
-
+```
   El propósito de este código es definir la estructura de una base de datos que puede usarse para manejar categorías de productos y artículos asociados a esas categorías, incluyendo detalles como precio, descripción y estado de venta. Define el nombre de la categoría como un campo de texto con un máximo de 255 caracteres
 Category: Una relación de clave foránea (FK) que conecta cada "Item" con una "Category". Esto significa que cada artículo pertenece a una categoría específica.
 
    <li><b>Código de “views.py” :</b></li>
   
   <li><b>Código de “views.py” aactualizado:</b>></li>
- \\\python
+```python
  from django.shortcuts import render, get_object_or_404, redirect
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth import logout
@@ -243,7 +241,7 @@ def add_item(request):
         }
 
     return render(request, 'store/form.html', context)
-    \\\
+```
   
   Esta actualización nos gestiona  las páginas principales, los detalles de los productos, el registro de usuarios y la adición de nuevos artículos, por ejemplo con el request nos ayuda a visualizar home , login, register 
 También se le hace llamado a SignupForm, NewItemForm que son clases de formularios de Django utilizadas para el registro de usuarios y para crear nuevos artículos.
@@ -262,7 +260,7 @@ También se le hace llamado a SignupForm, NewItemForm que son clases de formular
   
   <li><b>Estructuras Código “settings.py” Actualizado:</b></li>
  
-\\\python
+```python
 """
 Django settings for marketplace_main project.
 
@@ -388,14 +386,14 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-\\\
+```
   Agrega aplicaciones esenciales para manejar usuarios y sesiones, conserva y organiza mejor la configuración de middlewares y templates, incluye claramente la configuración WSGI, y en general refuerza la estructura necesaria para usar login, registro y otras funciones nuevas del proyecto.
 
    <li><b>Código “urls.py” :</b></li>
   
   <li><b>Código “urls.py” Actualizado:</b></li>
  
- \\\python
+```python
  from django.urls import path
 from django.contrib.auth import views as auth_views
 from .views import contact, detail, register, logout_user, add_item
@@ -410,13 +408,13 @@ urlpatterns = [
     path('add_item/', add_item, name='add_item'),
     path('detail/<int:pk>/', detail, name='detail'),
 ]
-\\\
+```
 
   El código actualizado agrega rutas para el registro, login, logout, añadir un ítem y un detalle específico. 
 Se incorpora autenticación de usuario con LoginView de Django y se importan más vistas y formularios necesarios para las funcionalidades añadidas.
   
   <li><b>Código “forms.py” actualizado:</b>></li>
- \\\python 
+```python 
  from django import forms
 from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
 from django.contrib.auth.models import User
@@ -497,7 +495,7 @@ class NewItemForm(forms.ModelForm):
                 'class': 'form-control',
             }),
         }
-  \\\
+ ```
   El archivo define y estiliza tres formularios esenciales: el LoginForm y el SignupForm gestionan la autenticación (iniciar sesión y registro de usuarios, respectivamente), y el NewItemForm permite a los usuarios publicar nuevos productos en la plataforma, controlando la entrada de datos como el nombre, descripción, precio e imagen del artículo.
 
    <li><b>Presentación final:</b>></li>
