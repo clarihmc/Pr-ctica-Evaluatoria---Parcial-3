@@ -166,8 +166,12 @@ También se le hace llamado a SignupForm, NewItemForm que son clases de formular
 
   El código actualizado agrega rutas para el registro, login, logout, añadir un ítem y un detalle específico. 
 Se incorpora autenticación de usuario con LoginView de Django y se importan más vistas y formularios necesarios para las funcionalidades añadidas.
-
-  <li><b>forms.py</b> → Formularios para login, registro y creación de productos.</li>
+  
+  <li><b>Código “forms.py” actualizado:</b>></li>
+ 
+  ![Captura1](assets/forms.png)
+  ![Captura2](assets/forms2.png)
+  ![Captura3](assets/forms3.png)
 </ul>
 </div>
 
