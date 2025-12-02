@@ -41,7 +41,7 @@
 
 ---
 
-## Introducción
+<p align="center"><strong>## Introducción</strong></p>
 
 <div style="margin-left: 40px; margin-right: 40px; text-align: center;">
 En este semestre seguimos utilizando la herramienta Django que sirve  para desarrollar aplicaciones porque ofrece rapidez, seguridad, escalabilidad y una gran comunidad de soporte. Es un framework de alto nivel que simplifica tareas comunes y permite construir proyectos muy grandes con menos esfuerzo que utiliza la arquitectura MVC Modelo-Vista-Controladores un patrón de diseño que separa una aplicación en tres componentes principales para mejorar la organización, mantenimiento y escalabilidad del código, que fue lo que empezamos a ver desde el primer dia que dividimos en modelo que se encarga de manejar la llamada lógica de negocios y la base de datos, el vista que es el encargada de la interfaz que observa el usuario , mostrar los datos del modelo y recibir los nuevos datos, y por último el controlador maneja las dos partes la de recibir las acciones, las interpreta y con ellas actualiza a al modelo o a la vista según se requiera.  
