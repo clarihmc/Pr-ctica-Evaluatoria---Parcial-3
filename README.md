@@ -184,7 +184,9 @@ Se incorpora autenticación de usuario con LoginView de Django y se importan má
 
 ---
 
-<h2 align="center">Presentación Final</h2>
+<h2 align="center">Presentación Final Actualizada</h2>
+
+
 
 <div style="margin-left: 40px; margin-right: 40px; text-align: center;">
 El proyecto tipo marketplace quedó funcional, con secciones esenciales como registro de usuarios, creación de productos, página de contacto y detalles individuales de artículos.  
