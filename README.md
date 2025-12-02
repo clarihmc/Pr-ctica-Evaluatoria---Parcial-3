@@ -83,7 +83,8 @@ En este semestre seguimos utilizando la herramienta Django que sirve  para desar
 
 ---
 
-<h2 align="center">Diagrama</h2>
+<h2 align="center" id="diagrama">Diagrama</h2>
+<p>
 
 ![Diagrama del proyecto](assets/diagrama.png)
 
@@ -94,10 +95,12 @@ En este semestre seguimos utilizando la herramienta Django que sirve  para desar
   <li><b>Template</b> → Se encarga de la presentación visual.</li>
 </ul>
 </div>
+</p>
 
 ---
 
-<h2 align="center">Explicación de Archivos</h2>
+<h2 align="center" id="explicacion-de-los-archivos">Explicación de los archivos</h2>
+<p>
 
 <div style="margin-left: 40px; margin-right: 40px; text-align: center;">
 <ul style="list-style-position: inside;">
@@ -108,11 +111,13 @@ En este semestre seguimos utilizando la herramienta Django que sirve  para desar
   <li><b>templates/store</b> → Carpeta para las plantillas HTML de la aplicación.</li>
 </ul>
 </div>
+</p>
 
 ---
 
-<h2 align="center">Código de Archivos</h2>
-
+<h2 align="center" id="codigo-de-los-archivos">Código de los archivos</h2>
+<p>
+  
 <div style="margin-left: 40px; margin-right: 40px; text-align: center;">
 <ul style="list-style-position: inside;">
   <li><b>Código de “models.py”:</b></li>
@@ -183,10 +188,12 @@ Se incorpora autenticación de usuario con LoginView de Django y se importan má
   
 </ul>
 </div>
+</p>
 
 ---
 
-<h2 align="center">Presentación Final Actualizada</h2>
+<h2 align="center" id="presentacion-final-actualizada">Presentación Final Actualizada</h2>
+<p>
 
   ![Captura1](assets/tienda1.png)
   ![Captura2](assets/tienda2.png)
@@ -195,11 +202,14 @@ Se incorpora autenticación de usuario con LoginView de Django y se importan má
   ![Captura5](assets/tienda5.png)
   ![Captura6](assets/tienda6.png)
   ![Captura7](assets/tienda7.png)
+</p>
 
 ---
 
-<h2 align="center">Conclusión</h2>
+<h2 align="center" id="conclusion">Conclusión</h2>
+<p>
 
 <div style="margin-left: 40px; margin-right: 40px; text-align: center;">
 Esta práctica ha terminado con la implementación exitosa de un proyecto tipo marketplace funcional, donde logramos hacer secciones esenciales, incluyendo registro de usuarios, creación de nuevos productos, página de contacto y páginas de detalles individuales para cada artículo.Además la implementación django fue importante para permitirnos desarrollar  de manera eficiente, manteniendo una separación de responsabilidades y un código organizado y bien comunicado el proyecto no solo entregó una solución de marketplace operativa, sino que también consolidó un sólido conocimiento en el desarrollo web backend con el framework Django y las mejores prácticas de la línea de comandos desde el cmd que era algo que fue novedoso para nosotros.
 </div>
+</p>
