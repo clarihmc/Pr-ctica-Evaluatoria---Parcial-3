@@ -54,28 +54,28 @@ Django utiliza la arquitectura MVC (Modelo-Vista-Controlador), un patrón de dis
 
 <div style="margin-left: 40px; margin-right: 40px; text-align: center;">
 <ul style="list-style-position: inside;">
-  <li><b>cd Documents</b> → Entra a la carpeta Documentos desde la terminal.</li>
-  <li><b>md "tu nombre"</b> → Crea una nueva carpeta con el nombre indicado.</li>
-  <li><b>cd "tu nombre"</b> → Entra a la carpeta creada.</li>
-  <li><b>md Proyectos</b> → Crea una carpeta llamada Proyectos.</li>
+  <li><b>cd Documents</b> → Sirve para entrar a la carpeta Documentos desde la terminal o consola. Indica a la computadora que cambie a la carpeta Documentos.</li>
+  <li><b>md "tu nombre"</b> → Crea una nueva carpeta con el nombre que coloques entre comillas.</li>
+  <li><b>cd "tu nombre"</b> → Entra a la carpeta que acabas de crear.</li>
+  <li><b>md Proyectos</b> → Crea una carpeta llamada Proyectos donde guardarás tus trabajos.</li>
   <li><b>cd Proyectos</b> → Entra a la carpeta Proyectos.</li>
-  <li><b>md dj_marketplace</b> → Crea una carpeta llamada dj_marketplace.</li>
+  <li><b>md dj_marketplace</b> → Crea una nueva carpeta llamada dj_marketplace, que será el proyecto de Django.</li>
   <li><b>cd dj_marketplace</b> → Entra a la carpeta dj_marketplace.</li>
-  <li><b>python -m venv venv</b> → Crea un entorno virtual.</li>
-  <li><b>venv\Scripts\activate</b> → Activa el entorno virtual.</li>
-  <li><b>pip install django</b> → Instala Django.</li>
-  <li><b>django-admin startproject marketplace_main</b> → Crea un proyecto Django.</li>
-  <li><b>cd marketplace_main</b> → Entra al proyecto.</li>
-  <li><b>python manage.py runserver</b> → Inicia el servidor local.</li>
-  <li><b>ctrl + c + c</b> → Detiene el servidor.</li>
-  <li><b>code .</b> → Abre el proyecto en VS Code.</li>
-  <li><b>pip install Pillow</b> → Instala la librería Pillow.</li>
-  <li><b>python manage.py migrate</b> → Aplica migraciones en la base de datos.</li>
-  <li><b>python manage.py createsuperuser</b> → Crea un usuario administrador.</li>
-  <li><b>python manage.py runserver</b> → Vuelve a iniciar el servidor.</li>
-  <li><b>python manage.py makemigrations</b> → Crea archivos de migración.</li>
-  <li><b>python manage.py startapp store</b> → Crea una aplicación llamada store.</li>
-  <li><b>python manage.py changepassword</b> → Cambia la contraseña de un usuario.</li>
+  <li><b>python -m venv venv</b> → Crea un entorno virtual llamado venv. Este entorno sirve para instalar librerías sin afectar otros proyectos.</li>
+  <li><b>venv\Scripts\activate</b> → Activa el entorno virtual que acabas de crear.</li>
+  <li><b>pip install django</b> → Instala el framework Django dentro del entorno.</li>
+  <li><b>django-admin startproject marketplace_main</b> → Crea un nuevo proyecto de Django con el nombre marketplace_main. </li>
+  <li><b>cd marketplace_main</b> → Entra a la carpeta del proyecto creado.</li>
+  <li><b>python manage.py runserver</b> → Inicia el servidor local de Django para probar tu aplicación web. Ejecuta tu página en el navegador.</li>
+  <li><b>ctrl + c + c</b> → Detiene el servidor que estaba corriendo en la consola.</li>
+  <li><b>code .</b> → Abre el proyecto actual en Visual Studio Code.</li>
+  <li><b>pip install Pillow</b> → Instala Pillow, una librería de Python para trabajar con imágenes en Django.</li>
+  <li><b>python manage.py migrate</b> → Aplica las migraciones y crea las tablas en la base de datos de tu proyecto. Guarda los cambios en la base de datos.</li>
+  <li><b>python manage.py createsuperuser</b> → Crea un usuario administrador para entrar al panel de administración de Django.</li>
+  <li><b>python manage.py runserver</b> → Vuelve a iniciar el servidor para probar el panel de administración.</li>
+  <li><b>python manage.py makemigrations</b> → Crea archivos de migración cuando haces cambios en los modelos de tu aplicación.</li>
+  <li><b>python manage.py startapp store</b> → Crea una nueva aplicación dentro del proyecto llamada store.</li>
+  <li><b>python manage.py changepassword</b> → Permite cambiar la contraseña de un usuario existente (por ejemplo, el administrador).</li>
 </ul>
 </div>
 
