@@ -28,7 +28,7 @@
 
 <div style="margin-left: 40px; margin-right: 40px; text-align: center;">
 <ul style="list-style-position: inside;">
-- [Introducción](#introduccion)
+ <li><a href="#introduccion">Introducción</a></li>
 - [Explicación de los comandos](#explicacion-de-los-comandos)
 - [Diagrama](#diagrama)
 - [Explicación de los archivos](#explicacion-de-los-archivos)
