@@ -136,11 +136,17 @@ Category: Una relación de clave foránea (FK) que conecta cada "Item" con una "
   Esta actualización nos gestiona  las páginas principales, los detalles de los productos, el registro de usuarios y la adición de nuevos artículos, por ejemplo con el request nos ayuda a visualizar home , login, register 
 También se le hace llamado a SignupForm, NewItemForm que son clases de formularios de Django utilizadas para el registro de usuarios y para crear nuevos artículos.
 
+ <li><b>Estructuras de “templates”:</b></li>
+  
+  ![Captura1](assets/templates.png)
+  
+  <li><b>Estructuras de “templates” Actualizado:</b></li>
+ 
+  ![Captura2](assets/templates2.png)
 
-  ![Diagrama del proyecto](assets/diagrama.png)
-  <li><b>templates</b> → Plantillas para autenticación y formularios.</li>
+  El cambio refleja una ampliación en la funcionalidad del sitio web. Se han agregado plantillas para manejar la autenticación del usuario (inicio de sesión y registro) y formularios relacionados con el proceso de registro. Además, se reorganizó la estructura de las plantillas, moviendo todo a la carpeta “templates”.
 
-  ![Diagrama del proyecto](assets/diagrama.png)
+  
   <li><b>settings.py</b> → Configuración de aplicaciones, middlewares y templates.</li>
   <li><b>urls.py</b> → Rutas para login, registro, logout y detalles de ítems.</li>
   <li><b>forms.py</b> → Formularios para login, registro y creación de productos.</li>
