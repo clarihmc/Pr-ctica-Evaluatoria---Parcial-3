@@ -131,8 +131,11 @@ Category: Una relación de clave foránea (FK) que conecta cada "Item" con una "
   <li><b>Código de “views.py” aactualizado:</b>></li>
  
   ![Captura2](assets/views2.png)
+  ![Captura3](assets/views3.png)
   
-  <li><b>views.py</b> → Gestiona páginas principales, detalles de productos y registro de usuarios.</li>
+  Esta actualización nos gestiona  las páginas principales, los detalles de los productos, el registro de usuarios y la adición de nuevos artículos, por ejemplo con el request nos ayuda a visualizar home , login, register 
+También se le hace llamado a SignupForm, NewItemForm que son clases de formularios de Django utilizadas para el registro de usuarios y para crear nuevos artículos.
+
 
   ![Diagrama del proyecto](assets/diagrama.png)
   <li><b>templates</b> → Plantillas para autenticación y formularios.</li>
