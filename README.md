@@ -113,15 +113,18 @@ Django utiliza la arquitectura MVC (Modelo-Vista-Controlador), un patrón de dis
 
 <div style="margin-left: 40px; margin-right: 40px; text-align: center;">
 <ul style="list-style-position: inside;">
-  <li><b>Código de “models.py”:</b>></li>
+  <li><b>Código de “models.py”:</b></li>
   
   ![Captura1](assets/models.png)
   
-  <li><b>Código de “models.py” Actualizado:</b>></li>
+  <li><b>Código de “models.py” Actualizado:</b></li>
  
   ![Captura2](assets/models2.png)
 
-   <li><b>Código de “views.py” :</b>></li>
+  El propósito de este código es definir la estructura de una base de datos que puede usarse para manejar categorías de productos y artículos asociados a esas categorías, incluyendo detalles como precio, descripción y estado de venta. Define el nombre de la categoría como un campo de texto con un máximo de 255 caracteres
+Category: Una relación de clave foránea (FK) que conecta cada "Item" con una "Category". Esto significa que cada artículo pertenece a una categoría específica.
+
+   <li><b>Código de “views.py” :</b></li>
   
   ![Captura1](assets/views.png)
   
