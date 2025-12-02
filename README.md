@@ -495,7 +495,7 @@ class NewItemForm(forms.ModelForm):
                 'class': 'form-control',
             }),
         }
- ```
+```
   El archivo define y estiliza tres formularios esenciales: el LoginForm y el SignupForm gestionan la autenticación (iniciar sesión y registro de usuarios, respectivamente), y el NewItemForm permite a los usuarios publicar nuevos productos en la plataforma, controlando la entrada de datos como el nombre, descripción, precio e imagen del artículo.
 
    <li><b>Presentación final:</b>></li>
