@@ -194,16 +194,10 @@ Se incorpora autenticación de usuario con LoginView de Django y se importan má
   ![Captura6](assets/tienda6.png)
   ![Captura7](assets/tienda7.png)
 
-<div style="margin-left: 40px; margin-right: 40px; text-align: center;">
-El proyecto tipo marketplace quedó funcional, con secciones esenciales como registro de usuarios, creación de productos, página de contacto y detalles individuales de artículos.  
-La implementación en Django permitió desarrollar de manera eficiente, manteniendo separación de responsabilidades y un código organizado.  
-</div>
-
 ---
 
 <h2 align="center">Conclusión</h2>
 
 <div style="margin-left: 40px; margin-right: 40px; text-align: center;">
-La práctica consolidó conocimientos en desarrollo web backend con Django y las mejores prácticas de la línea de comandos.  
-Se logró entregar una solución operativa de marketplace, reforzando la importancia de la arquitectura MVT y el uso de herramientas modernas para proyectos escalables.  
+Esta práctica ha terminado con la implementación exitosa de un proyecto tipo marketplace funcional, donde logramos hacer secciones esenciales, incluyendo registro de usuarios, creación de nuevos productos, página de contacto y páginas de detalles individuales para cada artículo.Además la implementación django fue importante para permitirnos desarrollar  de manera eficiente, manteniendo una separación de responsabilidades y un código organizado y bien comunicado el proyecto no solo entregó una solución de marketplace operativa, sino que también consolidó un sólido conocimiento en el desarrollo web backend con el framework Django y las mejores prácticas de la línea de comandos desde el cmd que era algo que fue novedoso para nosotros.
 </div>
