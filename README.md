@@ -47,7 +47,7 @@
 En este semestre seguimos utilizando la herramienta Django que sirve  para desarrollar aplicaciones porque ofrece rapidez, seguridad, escalabilidad y una gran comunidad de soporte. Es un framework de alto nivel que simplifica tareas comunes y permite construir proyectos muy grandes con menos esfuerzo que utiliza la arquitectura MVC Modelo-Vista-Controladores un patrón de diseño que separa una aplicación en tres componentes principales para mejorar la organización, mantenimiento y escalabilidad del código, que fue lo que empezamos a ver desde el primer dia que dividimos en modelo que se encarga de manejar la llamada lógica de negocios y la base de datos, el vista que es el encargada de la interfaz que observa el usuario , mostrar los datos del modelo y recibir los nuevos datos, y por último el controlador maneja las dos partes la de recibir las acciones, las interpreta y con ellas actualiza a al modelo o a la vista según se requiera.  
 </div>
 </p>
-<p align="center"><a href="#indice">⬆️ Regresar al índice</a></p>
+<p align="center"><a href="#indice">Regresar al índice</a></p>
 
 ---
 
@@ -81,6 +81,8 @@ En este semestre seguimos utilizando la herramienta Django que sirve  para desar
 </ul>
 </div>
 </p>
+<p align="center"><a href="#indice">Regresar al índice</a></p>
+
 
 ---
 
@@ -97,6 +99,8 @@ En este semestre seguimos utilizando la herramienta Django que sirve  para desar
 </ul>
 </div>
 </p>
+<p align="center"><a href="#indice">Regresar al índice</a></p>
+
 
 ---
 
@@ -112,7 +116,9 @@ En este semestre seguimos utilizando la herramienta Django que sirve  para desar
   <li><b>templates/store</b> → Carpeta para las plantillas HTML de la aplicación.</li>
 </ul>
 </div>
-</p>
+</p
+<p align="center"><a href="#indice">Regresar al índice</a></p>
+
 
 ---
 
@@ -190,6 +196,8 @@ Se incorpora autenticación de usuario con LoginView de Django y se importan má
 </ul>
 </div>
 </p>
+<p align="center"><a href="#indice">Regresar al índice</a></p>
+
 
 ---
 
@@ -204,6 +212,8 @@ Se incorpora autenticación de usuario con LoginView de Django y se importan má
   ![Captura6](assets/tienda6.png)
   ![Captura7](assets/tienda7.png)
 </p>
+<p align="center"><a href="#indice">Regresar al índice</a></p>
+
 
 ---
 
@@ -214,3 +224,4 @@ Se incorpora autenticación de usuario con LoginView de Django y se importan má
 Esta práctica ha terminado con la implementación exitosa de un proyecto tipo marketplace funcional, donde logramos hacer secciones esenciales, incluyendo registro de usuarios, creación de nuevos productos, página de contacto y páginas de detalles individuales para cada artículo.Además la implementación django fue importante para permitirnos desarrollar  de manera eficiente, manteniendo una separación de responsabilidades y un código organizado y bien comunicado el proyecto no solo entregó una solución de marketplace operativa, sino que también consolidó un sólido conocimiento en el desarrollo web backend con el framework Django y las mejores prácticas de la línea de comandos desde el cmd que era algo que fue novedoso para nosotros.
 </div>
 </p>
+<p align="center"><a href="#indice">Regresar al índice</a></p>
