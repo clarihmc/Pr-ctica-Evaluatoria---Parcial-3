@@ -28,13 +28,13 @@
 
 <div style="margin-left: 40px; margin-right: 40px; text-align: center;">
 <ul style="list-style-position: inside;">
-  <li>Introducción</li>
-  <li>Explicación de los comandos</li>
-  <li>Diagrama</li>
-  <li>Explicación de los archivos</li>
-  <li>Código de los archivos</li>
-  <li>Ejecución final de lo que va del proyecto</li>
-  <li>Conclusión</li>
+  <li><a href="#introduccion">Introducción</a></li>
+  <li><a href="#explicacion-de-comandos">Explicación de comandos</a></li>
+  <li><a href="#diagrama">Diagrama</a></li>
+  <li><a href="#explicacion-de-los-archivos">Explicación de los archivos</a></li>
+  <li><a href="#codigo-de-los-archivos">Código de los archivos</a></li>
+  <li><a href="#presentacion-final-actualizada">Presentación Final Actualizada</a></li>
+  <li><a href="#conclusion">Conclusión</a></li>
 </ul>
 </div>
 
