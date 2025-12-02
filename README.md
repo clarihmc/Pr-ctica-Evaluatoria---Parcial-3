@@ -146,9 +146,27 @@ También se le hace llamado a SignupForm, NewItemForm que son clases de formular
 
   El cambio refleja una ampliación en la funcionalidad del sitio web. Se han agregado plantillas para manejar la autenticación del usuario (inicio de sesión y registro) y formularios relacionados con el proceso de registro. Además, se reorganizó la estructura de las plantillas, moviendo todo a la carpeta “templates”.
 
+   <li><b>Código “settings.py” :</b></li>
   
-  <li><b>settings.py</b> → Configuración de aplicaciones, middlewares y templates.</li>
-  <li><b>urls.py</b> → Rutas para login, registro, logout y detalles de ítems.</li>
+  ![Captura1](assets/settings.png)
+  
+  <li><b>Estructuras Código “settings.py” Actualizado:</b></li>
+ 
+  ![Captura2](assets/settings2.png)
+
+  Agrega aplicaciones esenciales para manejar usuarios y sesiones, conserva y organiza mejor la configuración de middlewares y templates, incluye claramente la configuración WSGI, y en general refuerza la estructura necesaria para usar login, registro y otras funciones nuevas del proyecto.
+
+   <li><b>Código “urls.py” :</b></li>
+  
+  ![Captura1](assets/urls.png)
+  
+  <li><b>Código “urls.py” Actualizado:</b></li>
+ 
+  ![Captura2](assets/urls.png)
+
+  El código actualizado agrega rutas para el registro, login, logout, añadir un ítem y un detalle específico. 
+Se incorpora autenticación de usuario con LoginView de Django y se importan más vistas y formularios necesarios para las funcionalidades añadidas.
+
   <li><b>forms.py</b> → Formularios para login, registro y creación de productos.</li>
 </ul>
 </div>
