@@ -28,19 +28,20 @@
 
 <div style="margin-left: 40px; margin-right: 40px; text-align: center;">
 <ul style="list-style-position: inside;">
-  <li><a href="#introduccion">Introducción</a></li>
-  <li><a href="#explicacion-de-comandos">Explicación de comandos</a></li>
-  <li><a href="#diagrama">Diagrama</a></li>
-  <li><a href="#explicacion-de-los-archivos">Explicación de los archivos</a></li>
-  <li><a href="#codigo-de-los-archivos">Código de los archivos</a></li>
-  <li><a href="#presentacion-final-actualizada">Presentación Final Actualizada</a></li>
-  <li><a href="#conclusion">Conclusión</a></li>
+- [Introducción](#introduccion)
+- [Explicación de los comandos](#explicacion-de-los-comandos)
+- [Diagrama](#diagrama)
+- [Explicación de los archivos](#explicacion-de-los-archivos)
+- [Código de los archivos](#codigo-de-los-archivos)
+- [Ejecución final de lo que va del proyecto](#ejecucion-final-de-lo-que-va-del-proyecto)
+- [Conclusión](#conclusion)
+
 </ul>
 </div>
 
 ---
 
-<h2 align="center">Introducción</h2>
+## Introducción
 
 <div style="margin-left: 40px; margin-right: 40px; text-align: center;">
 En este semestre seguimos utilizando la herramienta Django que sirve  para desarrollar aplicaciones porque ofrece rapidez, seguridad, escalabilidad y una gran comunidad de soporte. Es un framework de alto nivel que simplifica tareas comunes y permite construir proyectos muy grandes con menos esfuerzo que utiliza la arquitectura MVC Modelo-Vista-Controladores un patrón de diseño que separa una aplicación en tres componentes principales para mejorar la organización, mantenimiento y escalabilidad del código, que fue lo que empezamos a ver desde el primer dia que dividimos en modelo que se encarga de manejar la llamada lógica de negocios y la base de datos, el vista que es el encargada de la interfaz que observa el usuario , mostrar los datos del modelo y recibir los nuevos datos, y por último el controlador maneja las dos partes la de recibir las acciones, las interpreta y con ellas actualiza a al modelo o a la vista según se requiera.  
