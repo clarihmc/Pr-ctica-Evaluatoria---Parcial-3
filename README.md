@@ -177,7 +177,7 @@ Se incorpora autenticación de usuario con LoginView de Django y se importan má
 
    <li><b>Presentación final:</b>></li>
  
-  ![Captura1](assets/store.png)
+  ![Captura1](assets/tienda.png)
   
 </ul>
 </div>
