@@ -172,6 +172,13 @@ Se incorpora autenticación de usuario con LoginView de Django y se importan má
   ![Captura1](assets/forms.png)
   ![Captura2](assets/forms2.png)
   ![Captura3](assets/forms3.png)
+
+  El archivo define y estiliza tres formularios esenciales: el LoginForm y el SignupForm gestionan la autenticación (iniciar sesión y registro de usuarios, respectivamente), y el NewItemForm permite a los usuarios publicar nuevos productos en la plataforma, controlando la entrada de datos como el nombre, descripción, precio e imagen del artículo.
+
+   <li><b>Presentación final:</b>></li>
+ 
+  ![Captura1](assets/store.png)
+  
 </ul>
 </div>
 
